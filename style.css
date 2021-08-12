@@ -1,0 +1,52 @@
+body{
+    background-size:cover;
+}
+.heading{
+    font-size:23px;
+    width:100%;
+    margin:0px;
+    background-color: black;
+    color:white;
+}
+#name_object,#status{
+    font-size:16px;
+    color:black;
+    background-color: white;
+}
+.copy_right_footer{
+    bottom:0;
+    width:100%;
+    line-height: 1.5;
+    background-color: red;
+    text-align: center;
+    position:fixed;
+    color:white;
+}
+canvas{
+    border:5px solid red;
+    box-shadow: 5px 5px 5px orangered;
+    border-radius:15px;
+    margin-left:480px;
+    margin-top:10px;
+}
+#name{
+    color:white;
+}
+#input{
+    width:360px;
+    border-radius: 5px;
+    height:30px;
+}
+#start{
+    background-color:red;
+    color:white;
+    font-size: 16px;
+}
+#start:hover{
+    transform:scale(0.9);
+    color:black;
+    font-size: 15px;
+}
+.heading:hover{
+    color:white;
+}
